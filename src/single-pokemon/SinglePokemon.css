@@ -1,0 +1,42 @@
+.card{
+    border-radius: 2px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+    width: 22%;
+}
+
+.card button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: black;
+    color: white;
+}
+
+.modal-content{
+    background-color: rgb(184, 3, 3);
+    color: white;
+}
+
+.modal-content button{
+    background-color: rgb(184, 3, 3);
+    color: white;
+}
+
+.modal-content button:hover{
+    background-color: black;
+    color: white;
+}

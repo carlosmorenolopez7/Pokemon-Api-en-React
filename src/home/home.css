@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+  
+.header {
+    background-color: black;
+    padding: 2rem;
+    text-align: center;
+    color: #fff;
+}
+
+.header h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.button {
+    display: inline-block;
+    background-color: #fff;
+    color: black;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.button:hover {
+    background-color: black;
+    color: #fff;
+}
+  
+.features {
+    padding: 4rem 2rem;
+    text-align: center;
+    background-color: #fff;
+}
+
+.features p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.features h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.feature {
+    margin-bottom: 2rem;
+}
+
+.feature img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.feature h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+  
+.about {
+    background-color: red;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.about p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.about .button {
+    margin-top: 2rem;
+}
+
+.contact {
+    padding: 4rem 2rem;
+    text-align: center;
+    background-color: grey;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact label {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.contact input, .contact textarea {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    max-width: 600px;
+}
+
+.contact textarea {
+    height: 10rem;
+}
+
+.contact button {
+    display: inline-block;
+    background-color: #fff;
+    color: black;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.contact button:hover {
+    background-color: black;
+    color: #fff;
+}
+  
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+}
+
+footer a{
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: red;
+}

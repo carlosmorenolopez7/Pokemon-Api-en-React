@@ -1,0 +1,40 @@
+#juego_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+#juego_main div:first-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+#juego_main img {
+    width: 100%;
+    max-width: 200px;
+}
+
+#juego_main button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+#juego_main button:hover {
+    background-color: black;
+}
+
+#juego_main div:last-child div:last-child {
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
