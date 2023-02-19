@@ -37,7 +37,7 @@ function SinglePokemon({ pokemonURL }) {
                             <img className="d-block w-100" src={pokemonData.sprites.front_default} alt={pokemonData.name}/>
                             <div className="container mt-3">
                                 <div className="row row-cols-2 d-flex justify-content-center align-items-center">
-                                    <div className="col"><p className="fs-4"><span>Experience: </span>{pokemonData.base_experience}</p></div>
+                                    <div className="col"><p className="fs-4"><span>Exp: </span>{pokemonData.base_experience}</p></div>
                                     <div className="col"><p className="fs-4"><span>Height: </span>{pokemonData.height}</p></div>
                                     <div className="col"><p className="fs-4"><span>Weight: </span>{pokemonData.weight}</p></div>
                                     <div className="col"><p className="fs-4"><span>Type: </span> {pokemonData.types[0].type.name}{pokemonData.types.length > 1 && `, ${pokemonData.types[1].type.name}`}</p></div>
