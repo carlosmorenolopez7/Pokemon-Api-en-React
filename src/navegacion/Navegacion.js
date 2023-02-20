@@ -10,6 +10,10 @@ function Navegacion() {
       if (user) {
         const login = document.getElementById("loginNav");
         login.style.display = "none";
+        const nombreUsuario = document.createElement("a");
+        nombreUsuario.className = "link";
+        nombreUsuario.id = "nombreUsuario";
+        nombreUsuario.innerText = user.email;
         const cerrarSesion = document.createElement("a");
         cerrarSesion.className = "link";
         cerrarSesion.id = "cerrarSesion";
@@ -20,12 +24,15 @@ function Navegacion() {
           alert("Sesión cerrada")
         });
         const navegation = document.querySelector(".navegation");
+        navegation.appendChild(nombreUsuario);
         navegation.appendChild(cerrarSesion);
       } else {
         const login = document.getElementById("loginNav");
         login.style.display = "block";
+        const nombreUsuario = document.getElementById("nombreUsuario");
         const cerrarSesion = document.getElementById("cerrarSesion");
         if (cerrarSesion) {
+          nombreUsuario.remove();
           cerrarSesion.remove();
         }
       }

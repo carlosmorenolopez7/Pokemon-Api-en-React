@@ -62,34 +62,14 @@ function Login() {
     <div id="loginDiv">
       <div id="registro">
         <h2>Registro</h2>
-        <input
-          type="text"
-          placeholder="Nombre de usuario"
-          value={emailRegistro}
-          onChange={(event) => setEmailRegistro(event.target.value)}
-        />
-        <input
-          type="password"
-          placeholder="Contraseña"
-          value={passwordRegistro}
-          onChange={(event) => setPasswordRegistro(event.target.value)}
-        />
+        <input type="text" placeholder="Nombre de usuario" value={emailRegistro} onChange={(event) => setEmailRegistro(event.target.value)}/>
+        <input type="password" placeholder="Contraseña" value={passwordRegistro} onChange={(event) => setPasswordRegistro(event.target.value)}/>
         <button id="registroBtn" onClick={registro}>Registrarse</button>
       </div>
       <div id="login">
         <h2>Login</h2>
-        <input
-          type="text"
-          placeholder="Nombre de usuario"
-          value={emailLogin}
-          onChange={(event) => setEmailLogin(event.target.value)}
-        />
-        <input
-          type="password"
-          placeholder="Contraseña"
-          value={passwordLogin}
-          onChange={(event) => setPasswordLogin(event.target.value)}
-        />
+        <input type="text" placeholder="Nombre de usuario" value={emailLogin} onChange={(event) => setEmailLogin(event.target.value)}/>
+        <input type="password" placeholder="Contraseña" value={passwordLogin} onChange={(event) => setPasswordLogin(event.target.value)}/>
         <button id="loginBtn" onClick={login}>Iniciar sesión</button>
       </div>
       <div id="loginGoogle">
