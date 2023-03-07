@@ -41,28 +41,12 @@
 }
 
 @media screen and (max-width: 768px) {
-    /* Cambiar el tamaño de la fuente y el margen inferior del encabezado */
-    #loginDiv h2 {
-      font-size: 30px;
-      margin-bottom: 50px;
+    #loginDiv {
+        grid-template-columns: 1fr; /* cambia a una sola columna */
+      }
+      
+      #loginGoogle {
+        width: 80%; /* reduce el ancho del elemento */
+        margin-bottom: 50px; /* reduce el margen inferior para acercarlo al resto */
+      }
     }
-    
-    /* Ajustar el ancho y la altura de las secciones de registro/login, así como el tamaño de la fuente de los botones */
-    #registro,
-    #login,
-    #loginGoogle {
-      width: 300px;
-      height: 300px;
-      font-size: 16px;
-    }
-  
-    /* Cambia el tamaño y espacio entre los botones */
-    #registroBtn,
-    #loginBtn,
-    #loginGoogle button {
-      width: 250px;
-      height: 40px;
-      font-size: 16px;
-      margin-top: 10px;
-    }
-  }
